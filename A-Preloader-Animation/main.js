@@ -1,7 +1,9 @@
-var preloader = document.getElementById("preloader");
-
 window.onload = function() {
+	var preloader = document.getElementById("preloader");
+		var animation = document.getElementById('animation');
+
 	var allTags = document.querySelectorAll("*");
+
 	for(var i=0; i < allTags.length; i++) {
 	    allTags[i].style.margin = '0';
 	    allTags[i].style.padding = '0';
@@ -12,10 +14,6 @@ window.onload = function() {
 	preloader.style.marginTop = '40vh';
 	preloader.style.width = '2px';
 	preloader.style.height = '70px';
-
-	preloader.innerHTML = '<div id="animation"></div>';
-
-	var animation = document.getElementById('animation');
 
 	animation.style.width = '100%';
 	animation.style.backgroundColor = '#555';
