@@ -1,0 +1,50 @@
+/*Bootstrap classes modification below*/
+.btn {
+	width: 100%;
+}
+/*Bootstrap classes modification above*/
+
+body {
+	background-color: #d9534f;
+	font-family: 'Orbitron', sans-serif;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+input {
+	color: #d9534f;
+}
+
+.give-margin-space {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	height: 13px;
+}
+
+.grid {
+	padding: 15px 0;
+	cursor: pointer;
+	background-color: whitesmoke;
+	color: #d9534f;
+	border: 1px solid #d9534f;
+	border-radius: 7px;
+	font-size: 30px;
+}
+
+.my-game-header {
+	background-color: #eeeeee;
+	color: #d9534f;
+	border-radius: 0;
+}
+
+.my-game-container {
+	padding: 40px 20px;
+	width: 345px;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 21px;
+	border-radius: 7px;
+	line-height: 1.9;
+	letter-spacing: 1px;
+}
