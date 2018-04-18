@@ -1,0 +1,71 @@
+* {margin: 0; padding: 0; border: 0;}
+body {
+	background-color: transparent;
+	font-size: 50px;
+	font-family: monospace;
+}
+nav {
+	background-color: transparent;
+	cursor: pointer;
+	box-shadow: 5px 5px 7px 0 rgba(0, 0, 0, 0.4);
+	position: fixed;
+	opacity: 0.6;
+	top: 15vh;
+	left: 10vw;
+}
+	nav:hover {
+		opacity: 0.9;
+	}
+	nav>div {
+		margin: 0 0 3px 0;
+		padding: 10px 5px;
+		width: 200px;
+		background-color: lightblue;
+		color: #ffffff;
+		text-shadow: 1px 1px 1px #000000;
+		text-align: center;
+		font-size: 0.5em;
+		border-radius: 1px;
+	}
+	nav>div:nth-child(6) {
+		margin: 0 0 0 0;
+		background-color: forestgreen;
+		font-size: 0.35em;
+	}
+	nav>div::selection {
+		background-color: transparent;
+	}
+	nav>div>a {
+		color: #ffffff;
+		text-decoration: none;
+	}
+section {
+	cursor: all-scroll;
+}
+	section>div {
+		margin: 0 auto;
+		padding: 10px 0;
+		width: 100vw;
+		height: 100vh;
+		color: #ffffff;
+		text-align: right;
+		background-repeat: no-repeat;
+		/*background-size: 100% auto;*/
+		background-position: center;
+		background-attachment: fixed;
+	}
+	section>div:nth-child(1) {
+		background-image: url('https://images.unsplash.com/photo-1471872973917-3e115886ed07?dpr=1&auto=compress,format&fit=crop&w=1352&h=&q=80&cs=tinysrgb&crop=');
+	}
+	section>div:nth-child(2) {
+		background-image: url('https://images.unsplash.com/photo-1474112704314-8162b7749a90?dpr=1&auto=compress,format&fit=crop&w=1350&h=&q=80&cs=tinysrgb&crop=');
+	}
+	section>div:nth-child(3) {
+		background-image: url('https://images.unsplash.com/photo-1468852665336-688059663b5b?dpr=1&auto=compress,format&fit=crop&w=1350&h=&q=80&cs=tinysrgb&crop=');
+	}
+	section>div:nth-child(4) {
+		background-image: url('https://images.unsplash.com/photo-1465553082841-c22c9e9f67dc?dpr=1&auto=compress,format&fit=crop&w=1350&h=&q=80&cs=tinysrgb&crop=');
+	}
+	section>div:nth-child(5) {
+		background-image: url('https://images.unsplash.com/photo-1465628976988-fe43bda15798?dpr=1&auto=compress,format&fit=crop&w=1352&h=&q=80&cs=tinysrgb&crop=');
+	}
