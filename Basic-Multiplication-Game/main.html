@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+	<title>Math Game - Multiply</title>
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div id="mainContainer">
+		<div id="gameRules">
+			This is a simple multiplication game. You will see two numbers with 4 choices below them. Choose the right product of the two numbers to score a point. Multiply as much as you can!!!
+		</div>
+		<div id="points">Points: <span id="pointValue">0</span></div>
+		<div id="result">
+			<div id="correct">+ 1</div>
+			<div id="wrong">Try Again</div>
+		</div>
+		<div id="question"><span id="q1">0</span> x <span id="q2">0</span></div>
+		<div id="instruction">Click 'Start Game' to begin multipying!!!</div>
+		<ul id="choices">
+			<li id="box1" class="ans-box">00</li>
+			<li id="box2" class="ans-box">00</li>
+			<li id="box3" class="ans-box">00</li>
+			<li id="box4" class="ans-box">00</li>
+		</ul>
+		<div id="start">Start</div>
+		<div id="time">Time left: <span id="timeLeft">60</span> sec</div>
+		<div id="gameOver">
+			<p>Game Over!!!</p>
+			<p>You scored <span id="score">00</span> points!!!</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
