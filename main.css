@@ -1,16 +1,27 @@
 body {
-	background-color: coral;
-	color: khaki;
+	background-color: rgba(212,212,212,0.7);
+	color: rgb(148,146,146);
 	font-size: 25px;
 	text-align: center;
-	font-family: 'Berkshire Swash', cursive;
+	font-family: 'Cute Font', cursive;
 	transition: all linear 0.5s;
 }
 h1 {
-	font-size: 1.5em;
+	font-size: 1.4em;
+}
+main {
+	margin: auto;
+	width: 90%;
+}
+li:nth-child(odd) {
+	background-color: rgba(189,189,189,0.5);
+}
+li:nth-child(even) {
+	background-color: rgba(212,212,212,0.5);
 }
 a {
+	color: tomato;
 	text-decoration: none;
-	color: gold;
-	font-size: 1.2em;
+	font-size: 1.5em;
+	text-shadow: 0 0 1px rgb(244,230,191);
 }
