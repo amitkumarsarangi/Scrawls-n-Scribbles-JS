@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+	<header>Tic Tac Toe</header>
+	<div class="game-container">
+		<div id ="selectMark">Select your mark
+        	<button id="markX">X</button>
+        	<button id="markO">O</button>
+        </div>
+        <div id="gameBoard">
+			<div class="rows">
+			    <div id="grid0" class="grid">&nbsp;</div>
+			    <div id="grid1" class="grid">&nbsp;</div>
+			    <div id="grid2" class="grid">&nbsp;</div>
+			</div>
+			<div class="rows">
+			    <div id="grid3" class="grid">&nbsp;</div>
+			    <div id="grid4" class="grid">&nbsp;</div>
+			    <div id="grid5" class="grid">&nbsp;</div>
+			</div>
+			<div class="rows">
+			    <div id="grid6" class="grid">&nbsp;</div>
+			    <div id="grid7" class="grid">&nbsp;</div>
+			    <div id="grid8" class="grid">&nbsp;</div>
+			</div>
+        </div>
+        <div id="info">
+	        <div>Won: <span id='won'>0</span></div>
+	        <div>Lost: <span id='lost'>0</span></div>
+	        <div>Draw: <span id='draw'>0</span></div>
+	        <button id="restart">Restart</button>
+        </div>
+	</div>
+	<footer>Game created by <a href="https://github.com/amitkumarsarangi">Amit Kumar Sarangi</a></footer>
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
