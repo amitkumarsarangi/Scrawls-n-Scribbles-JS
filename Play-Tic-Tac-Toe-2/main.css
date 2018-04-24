@@ -1,0 +1,225 @@
+* {
+	margin: 0; border: 0; padding: 0;
+}
+/* CSS Reset above this line... ... ... */
+body {
+	background: rgba(161, 177, 193, 0.9);
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+/* All tag selectors above this line ... ... ... */
+#fccTTT {
+	background-color: #C1D1F1;
+	color: #A1B1C1;
+	font-size: 3rem;
+	text-align: center;
+	font-weight: bold;
+	font-family: verdana;
+}
+.main-container {
+	cursor: pointer;
+	position: relative;
+	top: 50px;
+	right: 50px;
+}
+	
+	#tttSection {
+		width: 324px;
+		height: 324px;
+		background-color: #92a2b2;
+		position: absolute;
+		top: 30px;
+		right: 425px;
+		box-shadow: 0 0 5px 0 whitesmoke;
+	}
+		#tttBoxContainer {
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			display: none;
+		}
+			#tttBox0, #tttBox1, #tttBox2, #tttBox3, #tttBox4, #tttBox5, #tttBox6, #tttBox7, #tttBox8 {
+				margin: 1px;
+				padding-top: 20px;
+				width: 99px;
+				height: 79px;
+				font-size: 50px;
+				text-align: center;
+				background-color: #798896;
+				color: whitesmoke;
+				float: left;
+				box-shadow: 0 0 5px 0 #121212;
+			}
+
+			#tttBox0Z, #tttBox1Z, #tttBox2Z, #tttBox3Z, #tttBox4Z, #tttBox5Z, #tttBox6Z, #tttBox7Z, #tttBox8Z {
+				margin: 1px;
+				padding-top: 20px;
+				width: 99px;
+				height: 79px;
+				background-color: #798896;
+				position: absolute;
+				}
+				#tttBox0Z {
+					left: 0;
+				}
+				#tttBox1Z {
+					left: 101px;
+				}
+				#tttBox2Z {
+					left: 202px;
+				}
+				#tttBox3Z {
+					top: 101px;
+				}
+				#tttBox4Z {
+					top: 101px;
+					left: 101px;
+				}
+				#tttBox5Z {
+					top: 101px;
+					left: 202px;
+				}
+				#tttBox6Z {
+					top: 202px;
+				}
+				#tttBox7Z {
+					top: 202px;
+					left: 101px;
+				}
+				#tttBox8Z {
+					top: 202px;
+					left: 202px;
+				}
+
+		#tttScoreContainer {
+			position: absolute;
+			top: 1px;
+			left: 500px;
+			display: none;
+		}
+			.score {
+				margin: 4px auto;
+				padding: 5px 10px;
+				width: 129px;
+				height: 29px;
+				font-size: 20px;
+				text-align: left;
+				background-color: #798896;
+				color: whitesmoke;
+				box-shadow: 0 0 5px 0 #121212;
+			}
+			#whoIsWinner {
+				margin: 10px auto;
+				padding: 5px 10px;
+				width: 99px;
+				height: 79px;
+				font-size: 35px;
+				text-align: center;
+				background-color: tomato;
+				color: whitesmoke;
+				box-shadow: 0 0 5px 0 #121212;
+			}
+
+	.tttLines {
+		position: absolute;
+		top: 30px;
+		right: 480px;
+	}
+		.tttLineAll {
+			margin: 22px;
+			width: 10px;
+			height: 280px;
+			background-color: tomato;
+			border-radius: 30%;
+			box-shadow: 0 0 70px 0 whitesmoke;
+		}
+			#col1 {
+				position: absolute;
+				top: 0;
+				left: -235px;
+				/*display: none;*/
+			}
+			#col2 {
+				position: absolute;
+				top: 0;
+				left: -135px;
+				/*display: none;*/
+			}
+			#col3 {
+				position: absolute;
+				top: 0;
+				left: -35px;
+				/*display: none;*/
+			}
+			#row1 {
+				-ms-transform: rotate(90deg); /* IE 9 */
+				-webkit-transform: rotate(90deg); /* Safari */
+				transform: rotate(90deg);
+				position: absolute;
+				top: -100px;
+				left: -135px;
+				/*display: none;*/
+			}
+			#row2 {
+				-ms-transform: rotate(90deg); /* IE 9 */
+				-webkit-transform: rotate(90deg); /* Safari */
+				transform: rotate(90deg);
+				position: absolute;
+				top: 0;
+				left: -135px;
+				/*display: none;*/
+			}
+			#row3 {
+				-ms-transform: rotate(90deg); /* IE 9 */
+				-webkit-transform: rotate(90deg); /* Safari */
+				transform: rotate(90deg);
+				position: absolute;
+				top: 100px;
+				left: -135px;
+				/*display: none;*/
+			}
+			#dia1 {
+				-ms-transform: rotate(45deg); /* IE 9 */
+				-webkit-transform: rotate(45deg); /* Safari */
+				transform: rotate(45deg);
+				position: absolute;
+				top: 0;
+				left: -135px;
+				/*display: none;*/
+			}
+			#dia2 {
+				-ms-transform: rotate(-45deg); /* IE 9 */
+				-webkit-transform: rotate(-45deg); /* Safari */
+				transform: rotate(-45deg);
+				position: absolute;
+				top: 0;
+				left: -135px;
+				/*display: none;*/
+			}
+
+	#iGoFirst, #uGoFirst, #restart {
+		padding: 5px 10px;
+		width: 99px;
+		height: 29px;
+		font-size: 23px;
+		text-align: center;
+		background-color: #798896;
+		color: whitesmoke;
+		box-shadow: 0 0 5px 0 #121212;
+		position: absolute;
+	}
+		#iGoFirst {
+			top: 10px;
+			left: 200px;
+		}
+		#uGoFirst {
+			top: 60px;
+			left: 200px;
+		}
+		#restart {
+			font-size: 25px;
+			top: 35px;
+			left: 200px;
+			display: none;
+		}

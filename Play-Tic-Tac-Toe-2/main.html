@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<h1 id="fccTTT">Tic Tac Toe</h1>
+	<div class="main-container">
+		<div id="tttSection">
+			<div id="tttBoxContainer">
+				<div id="tttBox0"></div>		<div id="tttBox1"></div>		<div id="tttBox2"></div>
+
+				<div id="tttBox3"></div>		<div id="tttBox4"></div>		<div id="tttBox5"></div>
+
+				<div id="tttBox6"></div>		<div id="tttBox7"></div>		<div id="tttBox8"></div>
+
+				<div id="tttBox0Z"></div>		<div id="tttBox1Z"></div>		<div id="tttBox2Z"></div>
+
+				<div id="tttBox3Z"></div>		<div id="tttBox4Z"></div>		<div id="tttBox5Z"></div>
+
+				<div id="tttBox6Z"></div>		<div id="tttBox7Z"></div>		<div id="tttBox8Z"></div>
+			</div> <!-- tttBoxContainer -->
+
+			<div id="tttScoreContainer">
+				Computer says
+				<div class="score">I Scored: <span id="iScored">0</span></div>
+				<div class="score">U Scored: <span id="uScored">0</span></div>
+				<div class="score">Draws: <span id="draws">0</span></div>
+				<div id="whoIsWinner"></div>
+			</div> <!-- tttScoreContainer -->
+		</div> <!-- tttSection -->
+
+		<div class="tttLines">
+			<div class="tttLineAll" id="col1"></div><div class="tttLineAll" id="col2"></div><div class="tttLineAll" id="col3"></div>
+			<div class="tttLineAll" id="row1"></div><div class="tttLineAll" id="row2"></div><div class="tttLineAll" id="row3"></div>
+			<div class="tttLineAll" id="dia1"></div><div class="tttLineAll" id="dia2"></div>
+		</div> <!-- tttLines -->
+
+		<div id="iGoFirst">I Go First</div>
+		<div id="uGoFirst">U Go First</div>
+		<div id="restart">Restart</div>
+	</div> <!-- main-container -->
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
