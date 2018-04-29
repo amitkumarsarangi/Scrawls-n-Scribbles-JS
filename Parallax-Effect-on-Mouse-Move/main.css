@@ -1,0 +1,44 @@
+* {margin: 0; padding: 0; border: 0;}
+::selection {
+	background-color: transparent;
+}
+body {
+	background-color: transparent;
+	font-size: 50px;
+	color: teal;
+}
+header {
+	font-size: 0.5em;
+	text-transform: uppercase;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 500%);
+}
+.main-container {
+	margin: auto;
+	margin-top: 5vh;
+	width: 80vw;
+	height: 90vh;
+	border-radius: 50%;
+	text-shadow: 0 0 1px teal;
+	box-shadow: 5px 15px 25px 5px teal;
+	position: relative;
+}
+	.sub-container {
+		font-size: 2.1em;
+		position: absolute;
+		transition: all 0.3s linear;
+	}
+	#boxUno {
+		top: 25%;
+		left: 25%;
+	}
+	#boxDos {
+		top: 45%;
+		left: 45%;
+	}
+	#boxTres {
+		top: 25%;
+		right: 25%;
+	}
