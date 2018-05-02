@@ -1,0 +1,151 @@
+* {margin: 0; padding: 0; border: 0;}
+body {
+	background-color: #2671ed; /*darkBlueColor*/
+	color: #ffffff;
+	letter-spacing: 2px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+#contactMeToggle {
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	position: fixed;
+	top: 5vh;
+	right: 2vw;
+	transition: 0.5s ease-out;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-ms-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+}
+	#contactMeToggle:hover {
+		font-size: 27px;
+	}
+#contactMeContainer {
+	background-color: #2d96e3;
+	width: 50vw;
+	border-radius: 5px;
+	display: none;
+	overflow: auto;
+	position: fixed;
+	top: 10vh;
+	right: 5vw;
+}
+	#contactMeContainer input, #contactMeContainer textarea, #contactMeContainer button {
+		margin-bottom: 2px;
+		width: 100%;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 15px;
+		outline: none;
+	}
+	#contactMeContainer button {
+		background-color: #ffffff;
+		margin-bottom: 0;
+		cursor: pointer;
+	}
+
+.my-container {
+	position: relative;
+}
+	.my-container .my-image-container {
+		width: 14vw;
+		position: absolute;
+		top: -50vh;
+		left: 25vw;
+		/*top: 25vh;
+		left: 25vw;*/
+		transition: 1.5s ease-out;
+		-webkit-transition: 1.5s ease-out;
+		-moz-transition: 1.5s ease-out;
+		-ms-transition: 1.5s ease-out;
+		-o-transition: 1.5s ease-out;
+	}
+		.my-container .my-image-container img {
+			width: 100%;
+			border-radius: 50%;
+			border: 11px solid #2d96e3;
+			cursor: pointer;
+		}
+		.my-container .my-image-container header {
+			background-color: #2d96e3; /*lightBlueColor*/
+			width: 25vw;
+			padding: 10px;
+			font-size: 15px;
+			text-align: right;
+			font-family: 'Ubuntu', sans-serif;
+			border-radius: 5px;
+			border: 2px solid #2d96e3;
+			position: absolute;
+			top: 110%;
+			left: 45%;
+			transition: 0.5s linear;
+			-webkit-transition: 0.5s linear;
+			-moz-transition: 0.5s linear;
+			-ms-transition: 0.5s linear;
+			-o-transition: 0.5s linear;
+		}
+		.my-container .my-image-container header:before {
+			content: "";
+			width: 25px;
+			height: 25px;
+			border-radius: 50%;
+			border-top-left-radius: 0;
+			background-color: #2d96e3;
+			position: absolute;
+			top: -11px;
+			left: 10px;
+			transform: rotate(30deg);
+			-webkit-transform: rotate(30deg);
+			-moz-transform: rotate(30deg);
+			-ms-transform: rotate(30deg);
+			-o-transform: rotate(30deg);
+		}
+#siteLink {
+	width: 170px;
+	padding: 2px 10px;
+	background-color: #2d96e3; /*lightBlueColor*/
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	position: fixed;
+	bottom: 1vh;
+	right: -25px;
+	transition: 0.2s linear;
+	-webkit-transition: 0.2s linear;
+	-moz-transition: 0.2s linear;
+	-ms-transition: 0.2s linear;
+	-o-transition: 0.2s linear;
+}
+	#siteLink:hover {
+		right: -10px;
+	}
+.front-end-trio {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+	.logo {
+		width: 35px;
+		display: inline-block;
+		cursor: pointer;
+		position: absolute;
+		bottom: -55px;
+		transition: 0.5s ease-in;
+		-webkit-transition: 0.5s ease-in;
+		-moz-transition: 0.5s ease-in;
+		-ms-transition: 0.5s ease-in;
+		-o-transition: 0.5s ease-in;
+	}
+		#html5 {
+			left: 35px;
+		}
+		#css3 {
+			left: 75px;
+		}
+		#javascript {
+			left: 115px;
+		}
